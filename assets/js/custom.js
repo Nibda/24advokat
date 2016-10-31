@@ -42,14 +42,7 @@ interval: 2000 //TIME IN MILLI SECONDS
 VAGAS SLIDESHOW SCRIPTS
 ======================================*/
 $.vegas('slideshow', {
-  overlay: true,
-  transition: 'fade', 
-  transitionDuration: 4000,
-  delay: 10000,
-  color: 'red',
-  animation: 'random',
-  animationDuration: 20000,
-  backgrounds: [
+backgrounds: [
 { src: 'assets/img/1.jpg', fade: 1000, delay: 9000 },
 { src: 'assets/img/2.jpg', fade: 1000, delay: 9000 },
 ]
